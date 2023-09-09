@@ -1,0 +1,86 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+.navigation
+{
+    background-image: url(https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    box-shadow: 0px 0px 8px black;
+    
+    display: block;
+    
+}
+.searchbar
+{
+  position: sticky;
+    margin-top: 60px;
+    margin-left: 15%;
+    width: 70%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(99, 18, 18,1);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.main
+{
+    background-color:rgb(165, 42, 42, 0.2);;
+}
+.imagesection
+{
+   padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img
+{
+    height: 150px;
+    width: 150px ;
+    border-radius:50%;
+     transition: 3s;
+}
+.imagesection > div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.8);
+   
+}
+.des
+{
+    width: 90%;
+    margin: auto;
+    margin-block: 50px;
+    background-color: rgb(165, 42, 42, 0.3);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px brown;
+}
+.heading
+{
+    color: brown;
+}
+.para
+{
+    color: brown;
+}
+.list
+{
+    line-height: 20px;
+    
+}
+.list > li
+{
+    padding: 5px;
+    text-align: left;
+}
